@@ -267,13 +267,14 @@ h1[class^="head"] {
   }
   .container {
     min-width: 100%;
-    overflow-x: hidden;
   }
   .container img {
     width: 120%;
+    transform: translateX(-8px);
   }
   .main_section {
     padding-bottom: 350px;
+    overflow-x: hidden;
   }
   .main_text {
     margin-top: 12px;
@@ -328,5 +329,10 @@ h1[class^="head"] {
   .service {
     height: auto;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .order_btn {
+    width: 95%;
   }
 }
